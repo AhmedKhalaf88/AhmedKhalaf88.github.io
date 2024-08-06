@@ -104,8 +104,8 @@ function updateContentToDE() {
     "Ein Spiel, das mit Vanilla JavaScript entwickelt wurde.";
   document.querySelector("#PigGame").textContent =
     "Ein Spiel, das mit Vanilla JavaScript entwickelt wurde.";
-  document.querySelector("#billSplit").textContent =
-    "Diese App, die mit React entwickelt wurde, ermöglicht es Freunden, die Rechnung zu teilen.";
+  // document.querySelector("#billSplit").textContent =
+  //   "Diese App, die mit React entwickelt wurde, ermöglicht es Freunden, die Rechnung zu teilen.";
   document.querySelector("#travelList").textContent =
     "Diese App, die mit React entwickelt wurde, ermöglicht es Ihnen, eine Liste von Reiseartikeln zu erstellen.";
 
