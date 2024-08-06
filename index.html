@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Material Resume</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  </noscript>
+  <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet" />
+  <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet" />
+  <link href="css/aos.css?ver=1.2.1" rel="stylesheet" />
+  <link href="css/main.css?ver=1.2.1" rel="stylesheet" />
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body class="bg-light" id="top">
+  <header class="d-print-none">
+    <div class="container text-center text-lg-left">
+      <div class="pt-4 clearfix">
+        <h1 class="site-title mb-0">Ahmed Khalaf</h1>
+        <div class="site-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#about" title="About"><span class="menu-title" id="aboutNav">About</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" title="Skills"><span class="menu-title "
+                    id="skillNav">Skills</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience" title="Experience"><span class="menu-title"
+                    id="experienceNav">Experience</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education" title="Education"><span class="menu-title"
+                    id="educationNav">Education</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" title="Contact"><span class="menu-title"
+                    id="contentNav">Contact</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#en" title="English" onclick="updateContentToEN()"><img class="menu-title"
+                    src="images/english.png" width="25" /></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#de" onclick="updateContentToDE()" title="German"><img class="menu-title"
+                    src="images/germany.png" width="25" /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="container">
+      <div class="resume-container">
+        <div class="shadow-1-strong bg-white my-5" id="intro">
+          <div class="bg-info text-white">
+            <div class="cover bg-image">
+              <img src="images/header-background.jpg" />
+              <div class="mask" style="
+                    background-color: rgba(0, 0, 0, 0.7);
+                    backdrop-filter: blur(2px);
+                  ">
+                <div class="text-center p-5">
+                  <div class="avatar p-1">
+                    <img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160" height="160" />
+                  </div>
+                  <div class="header-bio mt-3">
+                    <div data-aos="zoom-in" data-aos-delay="0">
+                      <h2 class="h1">Ahmed Khalaf</h2>
+                      <p>Front-end Developer</p>
+                    </div>
+                    <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                      <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/ahmed-khalaf-a5b8b9301/"
+                              title="LinkedIn"><i class="fab fa-linkedin"></i><span
+                                class="menu-title sr-only">LinkedIn</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/AhmedKhalaf88" title="Github"><i
+                                class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="d-print-none">
+                      <a id="downloadCVLink" class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
+                        href="https://drive.google.com/file/d/1rlHQ9q0cl8WEGt9SaGtnFacLo6uoJlDg/view?usp=sharing"
+                        data-aos="fade-right" data-aos-delay="700">Download CV</a><a id="hireMeLink"
+                        class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left"
+                        data-aos-delay="700">Hire Me</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+          <div class="about-section">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="h2 fw-light mb-4" id="aboutMeTitle">About Me</h2>
+                <p id="aboutmeStatement">
+                  Enthusiastic frontend developer currently based in Dresden
+                  with a proven aptitude for fast-paced frontend learning,
+                  actively pursuing junior positions or internships. Have a
+                  solid foundation in ES6 and React. Pasionate to learn and
+                  work with the micro-frontend arch and applying either build
+                  or runtime integration between apps .
+                </p>
+              </div>
+              <div class="col-md-5 offset-lg-1">
+                <div class="row mt-2">
+                  <h2 class="h2 fw-light mb-4" id="personalDetails">Personal Details</h2>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder">
+                      <i class="far fa-calendar-alt pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                      <span id="age">Date Of Birth</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">01.10.1988</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder">
+                      <i class="far fa-envelope pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                      Email
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">ahmed.khalaf.1088@gmail.com</div>
+                  </div>
+
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder">
+                      <i class="fas fa-phone pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                      <span id="phone">Phone</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">+491729486266</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder">
+                      <i class="fas fa-map-marker-alt pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                      <span id="address">Address</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">
+                      <p>SpenerStraße 9a</p>
+                      <p class="city-section">01309 Dresden, Germany</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+          <div class="skills-section">
+            <h2 class="h2 fw-light mb-4" id="skillsContent">Skills</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <span class="fw-bolder">HTML5</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">CSS3</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">JavaScript</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">TypeScript</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">React</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">Redux</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <span class="fw-bolder">Python</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">Java</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">C++</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">Node.js</span>
+                </div>
+                <div class="mb-3">
+                  <span class="fw-bolder">Git</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+          <div class="work-experience-section">
+            <h2 class="h2 fw-light mb-4" id="experienceTitle">Work Experience</h2>
+            <div class="timeline">
+              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    Junior Odoo developer
+                    <span class="text-muted h6" id="workAt1">at manatec GmbH</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="workDate1">
+                    March, 2023 - August, 2023
+                  </div>
+                  <div>
+                    <ul id="workDetails1">
+                      <li>
+                        Developed custom Odoo modules to meet specific client
+                        requirements, ensuring compatibility with existing
+                        systems and adherence to best coding practices.
+                      </li>
+                      <li>
+                        Collaborated with senior developers to troubleshoot
+                        and debug complex issues within the Odoo framework,
+                        demonstrating problem-solving skills and a proactive
+                        approach to resolving challenges.
+                      </li>
+                      <li>
+                        Assisted in the implementation of new features and
+                        functionalities in Odoo applications, contributing to
+                        the overall improvement of the software's usability
+                        and performance.
+                      </li>
+                      <li>
+                        Participated in code reviews and quality assurance
+                        processes to maintain high standards of code integrity
+                        and reliability, actively seeking feedback to enhance
+                        personal skills and proficiency in Odoo development.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    IT-HelpDesk
+                    <span class="text-muted h6" id="workAt2">at Modis GmbH</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="workDate2">
+                    May, 2021 - February, 2023
+                  </div>
+                  <div>
+                    <ul id="workDetails2">
+                      <li>
+                        Provided timely technical support to end-users,
+                        resolving hardware and software issues efficiently to
+                        minimize downtime.
+                      </li>
+                      <li>
+                        Demonstrated strong troubleshooting skills, diagnosing
+                        problems accurately and implementing effective
+                        solutions to restore functionality.
+                      </li>
+                      <li>
+                        Assisted in the maintenance of IT infrastructure,
+                        including software updates, system configurations, and
+                        network optimizations.
+                      </li>
+                      <li>
+                        Delivered excellent customer service, ensuring clear
+                        communication and user education to prevent recurring
+                        issues and enhance user satisfaction.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    IT-HelpDesk
+                    <span class="text-muted h6" id="workAt3">at Industrial Testing & Research Center</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="workDate3">
+                    November, 2014 - October, 2015
+                  </div>
+                  <div>
+                    <ul id="workDetails3">
+                      <li>
+                        Offered prompt assistance to end-users, swiftly
+                        addressing technical challenges with both hardware and
+                        software to maintain productivity levels.
+                      </li>
+                      <li>
+                        Exhibited proficiency in problem-solving, accurately
+                        identifying and resolving issues to ensure seamless
+                        operation of IT systems.
+                      </li>
+                      <li>
+                        Contributed to the upkeep of IT assets, overseeing
+                        software upgrades, system configurations, and network
+                        enhancements.
+                      </li>
+                      <li>
+                        Provided exceptional support to users, fostering
+                        effective communication and imparting knowledge to
+                        prevent future issues and elevate user experience.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+          <div class="education-section">
+            <h2 class="h2 fw-light mb-4" id="educationTitle">Education</h2>
+            <div class="timeline">
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    <span>Bachelor in Electrical Engineering</span>
+                    <span class="text-muted h6" id="bachelorFrom">from Damascus University</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="bachelorDate">October, 2007 - January, 2013</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+          <div class="education-section">
+            <h2 class="h2 fw-light mb-4" id="courseTitle">Courses</h2>
+            <div class="timeline">
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    Master modern React from beginner to advanced! Next.js,
+                    Context API, React Query, Redux, Tailwind, advanced
+                    patterns
+                    <span class="text-muted h6" id="courseFrom1">from Udemy</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="courseDate1">March, 2024</div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    The modern JavaScript course for everyone! Master
+                    JavaScript with projects, challenges and theory. Many
+                    courses in one!
+                    <span class="text-muted h6" id="courseFrom2">from Udemy</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="courseDate2">November, 2023</div>
+                </div>
+              </div>
+              <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                <div class="timeline-head px-4 pt-3">
+                  <div class="h5">
+                    <span id="courseName">Modular Training for IT Specialists</span>
+                    <span class="text-muted h6" id="courseFrom3">from Robotron</span>
+                  </div>
+                </div>
+                <div class="timeline-body px-4 pb-4">
+                  <div class="text-muted text-small mb-3" id="courseDate3">January, 2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+          <div class="portfolio-section">
+            <h2 class="h2 fw-light mb-4">Portfolio</h2>
+            <div class="row g-0">
+              <div class="col-md-6">
+                <a href="/projects/Banking-project" target="_blank"><img class="img-fluid"
+                    src="images/Bankin_Project.png" width="800" height="500" /></a>
+              </div>
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                <div class="m-4 mt-md-2">
+                  <p class="text-teal text-small">
+                    Frontend / HTML / CSS / JavaScript
+                  </p>
+                  <h3>Banking Website</h3>
+                  <p class="text-muted" id="bankApp">
+                    Banking solution application that is developed using Vanilla JavaScript.
+                  <div class="text-muted" id="test">For testing, use these Accounts:
+                    <div>Account 1: </div><span>username: js , password: 1111</span>
+                    <div>Account 2: </div><span>username: jd , password: 2222</span>
+                  </div>
+                  </p>
+                  <p class="text-muted">
+                    <a class="nav-link" href="https://github.com/AhmedKhalaf88/bank-app.git" title="Github"
+                      target="_blank"><i style="font-size: 20px" class="fab fa-github"></i><span
+                        class="menu-title sr-only">Github</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 portfolio-reverse">
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="m-4 mt-md-2 text-end">
+                  <p class="text-teal text-small">
+                    Frontend / HTML / CSS / JavaScript
+                  </p>
+                  <h3>Game: Guess My Name</h3>
+                  <p class="text-muted" id="guessGame">
+                    A game that is developed using Vanilla JavaScript.
+                  </p>
+                  <p class="text-muted">
+                    <a class="nav-link" href="https://github.com/AhmedKhalaf88/guess-my-number-game.git" title="Github"
+                      target="_blank"><i style="font-size: 20px" class="fab fa-github"></i><span
+                        class="menu-title sr-only">Github</span></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <a href="/projects/Guess-my-number" target="_blank"><img class="img-fluid" src="images/GuessMyName.PNG"
+                    width="800" height="500" /></a>
+              </div>
+            </div>
+            <div class="row g-0">
+              <div class="col-md-6">
+                <a href="/projects/Pig-Game" target="_blank"><img class="img-fluid" src="images/Pig_Game.PNG"
+                    width="800" height="500" /></a>
+              </div>
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                <div class="m-4 mt-md-2">
+                  <p class="text-teal text-small">
+                    Frontend / HTML / CSS / JavaScript
+                  </p>
+                  <h3>Pig Game</h3>
+                  <p class="text-muted" id="PigGame">
+                    A game that is developed using Vanilla JavaScript.
+                  </p>
+                  <p class="text-muted">
+                    <a class="nav-link" href="https://github.com/AhmedKhalaf88/pig-game.git" title="Github"
+                      target="_blank"><i style="font-size: 20px" class="fab fa-github"></i><span
+                        class="menu-title sr-only">Github</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 portfolio-reverse">
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="m-4 mt-md-2 text-end">
+                  <p class="text-teal text-small">
+                    Frontend / HTML / CSS / JavaScript
+                  </p>
+                  <h3>Eat In Split</h3>
+                  <p class="text-muted" id="billSplit">
+                    This app is developed using React, allows friends to share the bill.
+                  </p>
+                  <p class="text-muted">
+                    <a class="nav-link" href="https://github.com/AhmedKhalaf88/eat-n-split.git" title="Github"
+                      target="_blank"><i style="font-size: 20px" class="fab fa-github"></i><span
+                        class="menu-title sr-only">Github</span></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <a href="https://ahmedkhalaf88.github.io/eat-n-split" target="_blank"><img class="img-fluid"
+                    src="images/Bill_split.PNG" width="800" height="500" /></a>
+              </div>
+            </div>
+            <div class="row g-0">
+              <div class="col-md-6">
+                <a href="https://ahmedkhalaf88.github.io/travel-list" target="_blank"><img class="img-fluid"
+                    src="images/travelList.PNG" width="800" height="500" /></a>
+              </div>
+              <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                <div class="m-4 mt-md-2">
+                  <p class="text-teal text-small">
+                    Frontend / HTML / CSS / JavaScript
+                  </p>
+                  <h3>Travel List</h3>
+                  <p class="text-muted" id="travelList">
+
+                    This app is developed using React, allows you to create a list of items for your travel.
+                  </p>
+                  <p class="text-muted">
+                    <a class="nav-link" href="https://github.com/AhmedKhalaf88/travel-list.git" title="Github"
+                      target="_blank"><i style="font-size: 20px" class="fab fa-github"></i><span
+                        class="menu-title sr-only">Github</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+          <div class="contant-section">
+            <h2 class="h2 fw-light text mb-4" id="contactTitle">Contact</h2>
+            <div class="row xmb-4">
+              <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                <div class="mt-1">
+                  <div class="h6">
+                    <i class="fas fa-phone pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                    +491729486266
+                  </div>
+                  <div class="h6">
+                    <i class="far fa-envelope pe-2 text-muted" style="width: 24px; opacity: 0.85"></i>
+                    ahmed.khalaf.1088@gmail.com
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5016.430012197954!2d13.783960776522928!3d51.04911767171269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709c8baf83b53af%3A0xf83f0547ccc196f5!2sSpenerstra%C3%9Fe%209A%2C%2001309%20Dresden!5e0!3m2!1sen!2sde!4v1720968607477!5m2!1sen!2sde"
+                  width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+    <div class="container">
+      <div class="my-3">
+        <div class="h4">Ahmed Khalaf</div>
+        <div class="footer-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/ahmed-khalaf-a5b8b9301/" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/AhmedKhalaf88" title="Github"><i
+                    class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+  <script src="scripts/aos.js?ver=1.2.1"></script>
+  <script src="scripts/de.js"></script>
+  <script src="scripts/en.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
