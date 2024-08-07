@@ -131,6 +131,8 @@ function updateContentToEN() {
     "A game that is developed using Vanilla JavaScript.";
   document.querySelector("#PigGame").textContent =
     "A game that is developed using Vanilla JavaScript.";
+  document.querySelector("#ussepopcorn").textContent =
+    "This app, developed using React, allows you to search for movies, rate them, and add them to your watched list.";
   // document.querySelector("#billSplit").textContent =
   //   "This app is developed using React, allows friends to share the bill.";
   document.querySelector("#travelList").textContent =
