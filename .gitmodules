@@ -13,5 +13,8 @@
 [submodule "projects/usepopcorn"]
     path = projects/usepopcorn
     url = https://github.com/AhmedKhalaf88/usePopcorn.git
+[submodule "projects/eat-n-split"]
+    path = projects/eat-n-split
+    url = https://github.com/AhmedKhalaf88/eat-n-split.git
     
     
