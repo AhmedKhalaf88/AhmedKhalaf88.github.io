@@ -110,6 +110,8 @@ function updateContentToDE() {
     "Diese App, entwickelt mit React, ermöglicht es Ihnen, die Rechnung mit Ihren Freunden aufzuteilen.";
   document.querySelector("#travelList").textContent =
     "Diese App, die mit React entwickelt wurde, ermöglicht es Ihnen, eine Liste von Reiseartikeln zu erstellen.";
+  document.querySelector("#leonDesign").textContent =
+    "Dieses Design wurde mit HTML und CSS erstellt.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }

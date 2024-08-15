@@ -137,6 +137,8 @@ function updateContentToEN() {
     "This app, developed using React, allows you to split the bill with your friends.";
   document.querySelector("#travelList").textContent =
     "This app is developed using React, allows you to create a list of items for your travel.";
+  document.querySelector("#leonDesign").textContent =
+    "This design is created with html and css.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }
