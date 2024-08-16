@@ -139,6 +139,8 @@ function updateContentToEN() {
     "This app is developed using React, allows you to create a list of items for your travel.";
   document.querySelector("#leonDesign").textContent =
     "This design is created with html and css.";
+  document.querySelector("#weather").textContent =
+    "This React app lets you easily check the current weather, keeping you updated on the latest conditions.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }
