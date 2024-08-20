@@ -114,6 +114,8 @@ function updateContentToDE() {
     "Dieses Design wurde mit HTML und CSS erstellt.";
   document.querySelector("#weather").textContent =
     "Diese React-App ermöglicht es Ihnen, einfach das aktuelle Wetter zu überprüfen und Sie über die neuesten Bedingungen informiert zu bleiben.";
+  document.querySelector("#bankWebDesign").textContent =
+    "Dieses Bank-Website-Design wurde mit Vanilla JavaScript erstellt.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }

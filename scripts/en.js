@@ -136,11 +136,13 @@ function updateContentToEN() {
   document.querySelector("#billSplit").textContent =
     "This app, developed using React, allows you to split the bill with your friends.";
   document.querySelector("#travelList").textContent =
-    "This app is developed using React, allows you to create a list of items for your travel.";
+    "This app, developed using React, allows you to create a list of items for your travel.";
   document.querySelector("#leonDesign").textContent =
     "This design is created with html and css.";
   document.querySelector("#weather").textContent =
     "This React app lets you easily check the current weather, keeping you updated on the latest conditions.";
+  document.querySelector("#bankWebDesign").textContent =
+    "This is a bank website design developed using Vanilla JavaScript.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }
