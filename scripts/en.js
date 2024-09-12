@@ -143,6 +143,8 @@ function updateContentToEN() {
     "This React app lets you easily check the current weather, keeping you updated on the latest conditions.";
   document.querySelector("#bankWebDesign").textContent =
     "This is a bank website design developed using Vanilla JavaScript.";
+  document.querySelector("#quiz").textContent =
+    "This React-based application lets you challenge your React knowledge with an interactive quiz.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }

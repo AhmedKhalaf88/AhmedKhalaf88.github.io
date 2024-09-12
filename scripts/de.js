@@ -116,6 +116,8 @@ function updateContentToDE() {
     "Diese React-App ermöglicht es Ihnen, einfach das aktuelle Wetter zu überprüfen und Sie über die neuesten Bedingungen informiert zu bleiben.";
   document.querySelector("#bankWebDesign").textContent =
     "Dieses Bank-Website-Design wurde mit Vanilla JavaScript erstellt.";
+  document.querySelector("#quiz").textContent =
+    "Diese React-Anwendung ermöglicht es Ihnen, Ihr Wissen über React in einem interaktiven Quiz zu testen.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }
