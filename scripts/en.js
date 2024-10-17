@@ -145,6 +145,10 @@ function updateContentToEN() {
     "This is a bank website design developed using Vanilla JavaScript.";
   document.querySelector("#quiz").textContent =
     "This React-based application lets you challenge your React knowledge with an interactive quiz.";
+  document.querySelector("#worldwise").textContent =
+    "This React-based application provides details about the cities and countries you've visited, including the dates of your visits.";
+  document.querySelector("#mapty").textContent =
+    "This app, developed with Vanilla JavaScript, allows you to save all your workouts, including details such as duration, distance, location, date, and type of workout, whether running or cycling.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }

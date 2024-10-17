@@ -118,6 +118,10 @@ function updateContentToDE() {
     "Dieses Bank-Website-Design wurde mit Vanilla JavaScript erstellt.";
   document.querySelector("#quiz").textContent =
     "Diese React-Anwendung ermöglicht es Ihnen, Ihr Wissen über React in einem interaktiven Quiz zu testen.";
+  document.querySelector("#worldwise").textContent =
+    "Diese auf React basierende Anwendung bietet Informationen über die Städte und Länder, die du besucht hast, einschließlich der Besuchsdaten.";
+  document.querySelector("#mapty").textContent =
+    "Diese mit Vanilla JavaScript entwickelte App ermöglicht es dir, all deine Workouts zu speichern, einschließlich Details wie Dauer, Distanz, Standort, Datum und Art des Workouts, ob Laufen oder Radfahren";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }
