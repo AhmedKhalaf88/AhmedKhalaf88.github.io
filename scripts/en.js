@@ -149,6 +149,8 @@ function updateContentToEN() {
     "This React-based application provides details about the cities and countries you've visited, including the dates of your visits.";
   document.querySelector("#mapty").textContent =
     "This app, developed with Vanilla JavaScript, allows you to save all your workouts, including details such as duration, distance, location, date, and type of workout, whether running or cycling.";
+  document.querySelector("#pizza-menu").textContent =
+    "This React-based application provides a pizza menu where users can quickly order pizzas from the menu. Users can add pizzas to the cart, specify the number of pizzas, set the priority level of the order, and provide a delivery address for the order.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }

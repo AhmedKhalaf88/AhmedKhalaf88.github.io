@@ -122,6 +122,8 @@ function updateContentToDE() {
     "Diese auf React basierende Anwendung bietet Informationen über die Städte und Länder, die du besucht hast, einschließlich der Besuchsdaten.";
   document.querySelector("#mapty").textContent =
     "Diese mit Vanilla JavaScript entwickelte App ermöglicht es dir, all deine Workouts zu speichern, einschließlich Details wie Dauer, Distanz, Standort, Datum und Art des Workouts, ob Laufen oder Radfahren";
+  document.querySelector("#pizza-menu").textContent =
+    "Diese React-basierte Anwendung bietet eine Pizzakarte, auf der Benutzer schnell Pizzen aus dem Menü bestellen können. Benutzer können Pizzen zum Warenkorb hinzufügen, die Anzahl der Pizzen angeben, die Priorität der Bestellung festlegen und eine Lieferadresse für die Bestellung angeben.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }
