@@ -124,6 +124,8 @@ function updateContentToDE() {
     "Diese mit Vanilla JavaScript entwickelte App ermöglicht es dir, all deine Workouts zu speichern, einschließlich Details wie Dauer, Distanz, Standort, Datum und Art des Workouts, ob Laufen oder Radfahren";
   document.querySelector("#pizza-menu").textContent =
     "Diese React-basierte Anwendung bietet eine Pizzakarte, auf der Benutzer schnell Pizzen aus dem Menü bestellen können. Benutzer können Pizzen zum Warenkorb hinzufügen, die Anzahl der Pizzen angeben, die Priorität der Bestellung festlegen und eine Lieferadresse für die Bestellung angeben.";
+  document.querySelector("#forkify").textContent =
+    "Diese Anwendung ermöglicht es Ihnen, eine Vielzahl von Rezepten mit ihren Zutaten zu entdecken. Sie können Ihre eigenen Rezepte hochladen und erstellen, die Zutatenmengen anpassen, um sie an Ihre Bedürfnisse anzupassen, Ihre Lieblingsgerichte speichern und Ihre persönliche Rezeptsammlung verwalten.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }
