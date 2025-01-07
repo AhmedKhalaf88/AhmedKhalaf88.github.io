@@ -153,6 +153,14 @@ function updateContentToEN() {
     "This React-based application provides a pizza menu where users can quickly order pizzas from the menu. Users can add pizzas to the cart, specify the number of pizzas, set the priority level of the order, and provide a delivery address for the order.";
   document.querySelector("#forkify").textContent =
     "This application allows you to explore a variety of recipes along with their ingredients. You can upload and create your own recipes, adjust ingredient quantities to fit your needs, bookmark your favorite dishes, and manage your personalized recipe collection.";
+  document.querySelector("#wild-oasis").innerHTML = `
+                      A user-friendly application for the efficient management of a hotel in the Wild Oasis.
+                      <ul>
+                      <li>User Management: Add and manage hotel guests.</li>
+                      <li>Bookings: Create, edit, delete, and handle check-ins and check-outs.</li>
+                      <li>Cabin Management: View and manage cabin bookings.</li>
+                      <li>Dashboard: Access statistics on bookings, check-ins, check-outs, and revenue.</li>
+                      </ul> `;
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }
