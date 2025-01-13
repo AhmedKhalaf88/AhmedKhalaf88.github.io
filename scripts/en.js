@@ -12,7 +12,7 @@ function updateContentToEN() {
 
   document.querySelector("#downloadCVLink").textContent = "Download CV";
   document.querySelector("#downloadCVLink").href =
-    "https://drive.google.com/file/d/1rlHQ9q0cl8WEGt9SaGtnFacLo6uoJlDg/view?usp=sharing";
+    "https://drive.google.com/file/d/10CzrGV6Dy6ocU8uOPE3fCiZsWHFLm0N5/view?usp=sharing";
   document.querySelector("#hireMeLink").textContent = "Hire me";
 
   document.querySelector("#aboutMeTitle").textContent = "About Me";

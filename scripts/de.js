@@ -13,7 +13,7 @@ function updateContentToDE() {
   document.querySelector("#downloadCVLink").textContent =
     "Lebenslauf herunterladen";
   document.querySelector("#downloadCVLink").href =
-    "https://drive.google.com/file/d/1pDG_-J3am5hrHxAZssQUW0a0vPaOaUA9/view?usp=sharing";
+    "https://drive.google.com/file/d/1MV8GPmMGNN6LV1s2FSFZAi6RqQYVME8D/view?usp=sharing";
   document.querySelector("#hireMeLink").textContent = "Stellen Sie mich ein";
 
   document.querySelector("#aboutMeTitle").textContent = "Über mich";
