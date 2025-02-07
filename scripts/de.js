@@ -13,7 +13,7 @@ function updateContentToDE() {
   document.querySelector("#downloadCVLink").textContent =
     "Lebenslauf herunterladen";
   document.querySelector("#downloadCVLink").href =
-    "https://drive.google.com/file/d/1MV8GPmMGNN6LV1s2FSFZAi6RqQYVME8D/view?usp=sharing";
+    "https://drive.google.com/file/d/1sNzWpP8XvEtI_krUbiBKujS0_ul4Wrpw/view?usp=sharing";
   document.querySelector("#hireMeLink").textContent = "Stellen Sie mich ein";
 
   document.querySelector("#aboutMeTitle").textContent = "Über mich";
@@ -126,14 +126,10 @@ function updateContentToDE() {
     "Diese React-basierte Anwendung bietet eine Pizzakarte, auf der Benutzer schnell Pizzen aus dem Menü bestellen können. Benutzer können Pizzen zum Warenkorb hinzufügen, die Anzahl der Pizzen angeben, die Priorität der Bestellung festlegen und eine Lieferadresse für die Bestellung angeben.";
   document.querySelector("#forkify").textContent =
     "Diese Anwendung ermöglicht es Ihnen, eine Vielzahl von Rezepten mit ihren Zutaten zu entdecken. Sie können Ihre eigenen Rezepte hochladen und erstellen, die Zutatenmengen anpassen, um sie an Ihre Bedürfnisse anzupassen, Ihre Lieblingsgerichte speichern und Ihre persönliche Rezeptsammlung verwalten.";
-  document.querySelector("#wild-oasis").innerHTML = `
-                        Eine benutzerfreundliche Anwendung zur effizienten Verwaltung eines Hotels in der Wilden Oase.
-                        <ul>
-                            <li>Benutzerverwaltung: Hinzufügen und Verwalten von Hotelgästen.</li>
-                            <li>Buchungen: Erstellen, Bearbeiten, Löschen sowie Check-in und Check-out.</li>
-                            <li>Kabinenverwaltung: Übersicht und Buchungsmöglichkeiten für Gäste.</li>
-                            <li>Dashboard: Statistiken zu Buchungen, Check-ins/Check-outs und Umsätzen.</li>
-                        </ul> `;
+  document.querySelector("#wild-oasis").textContent =
+    "Eine benutzerfreundliche Anwendung für die effiziente Verwaltung eines Hotels in der Wild Oasis. Nutzer können Hotelgäste hinzufügen und verwalten, Buchungen erstellen, bearbeiten und löschen sowie Check-ins und Check-outs durchführen. Die Plattform ermöglicht zudem eine einfache Verwaltung der Hütten und bietet ein Dashboard mit Statistiken zu Buchungen, Check-ins, Check-outs und Einnahmen – alles in einer intuitiven und nahtlosen Benutzererfahrung.";
+  document.querySelector("#wild-oasis-website").textContent =
+    "The Wild Oasis ist eine Next.js-basierte Buchungsplattform, auf der Nutzer wunderschöne Hütten entdecken, sich einloggen und ihren Aufenthalt reservieren können. Sie können bequem Daten auswählen, Buchungen verwalten, ändern oder stornieren und mehr über das Hotel erfahren – alles in einer benutzerfreundlichen Umgebung.";
 
   document.querySelector("#contactTitle").textContent = "Kontakt";
 }

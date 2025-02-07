@@ -12,7 +12,7 @@ function updateContentToEN() {
 
   document.querySelector("#downloadCVLink").textContent = "Download CV";
   document.querySelector("#downloadCVLink").href =
-    "https://drive.google.com/file/d/10CzrGV6Dy6ocU8uOPE3fCiZsWHFLm0N5/view?usp=sharing";
+    "https://drive.google.com/file/d/179teNGuHmwwAhivabTNpQiO3swxKVkeg/view?usp=sharing";
   document.querySelector("#hireMeLink").textContent = "Hire me";
 
   document.querySelector("#aboutMeTitle").textContent = "About Me";
@@ -153,14 +153,10 @@ function updateContentToEN() {
     "This React-based application provides a pizza menu where users can quickly order pizzas from the menu. Users can add pizzas to the cart, specify the number of pizzas, set the priority level of the order, and provide a delivery address for the order.";
   document.querySelector("#forkify").textContent =
     "This application allows you to explore a variety of recipes along with their ingredients. You can upload and create your own recipes, adjust ingredient quantities to fit your needs, bookmark your favorite dishes, and manage your personalized recipe collection.";
-  document.querySelector("#wild-oasis").innerHTML = `
-                      A user-friendly application for the efficient management of a hotel in the Wild Oasis.
-                      <ul>
-                      <li>User Management: Add and manage hotel guests.</li>
-                      <li>Bookings: Create, edit, delete, and handle check-ins and check-outs.</li>
-                      <li>Cabin Management: View and manage cabin bookings.</li>
-                      <li>Dashboard: Access statistics on bookings, check-ins, check-outs, and revenue.</li>
-                      </ul> `;
+  document.querySelector("#wild-oasis").textContent =
+    "A user-friendly application for the efficient management of a hotel in the Wild Oasis. Users can add and manage hotel guests, create, edit, and delete bookings, and handle check-ins and check-outs. The platform also allows for easy cabin management and provides a dashboard with statistics on bookings, check-ins, check-outs, and revenue—all in an intuitive and seamless experience.";
+  document.querySelector("#wild-oasis-website").textContent =
+    "The Wild Oasis is a Next.js-powered booking platform where users can browse stunning cabins, log in to reserve their stay, select dates, and manage their bookings with ease. The site offers a seamless experience, allowing guests to update or cancel reservations while learning more about the hotel and its offerings.";
 
   document.querySelector("#contactTitle").textContent = "Contact";
 }
